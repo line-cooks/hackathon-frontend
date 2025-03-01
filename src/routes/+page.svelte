@@ -1,2 +1,33 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import Map from '../components/Map.svelte';
+    import { onMount, onDestroy } from 'svelte'
+    let coords = [];
+
+    
+
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+<div class="main-page">
+
+    <div id="map">
+        <Map/>
+    </div>
+</div>
+
+<style>
+
+    
+
+    
+</style>
+

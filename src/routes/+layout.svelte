@@ -9,7 +9,11 @@
 
 
 <style>
-
+    * {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+}
 
     
     :root{
@@ -28,9 +32,9 @@
     }
     .header{
         width: 100%;
-        height: 5vh;
+        height: 10vh;
         background-color: var(--main-color);
-        padding: 20px 10px;
+        padding: 0 0;
         margin-top: -7px;
 
         display: flex;
